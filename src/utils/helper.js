@@ -9,8 +9,8 @@ export const globalColor = {
 // export const server_url = "https://1fa6-197-210-76-36.ngrok-free.app";
 // export const server_url = "https:";
 // export const server_url = "https://be76-2c0f-2a80-ae-5510-5916-6be3-2fab-ac06.ngrok-free.app";
-//  export const server_url = "http://192.168.1.35:34567";
-export const server_url = "http://localhost:34567";
+ export const server_url = "http://192.168.1.141:34567";
+// export const server_url = "http://localhost:34567";
 
 export const _post = (url, data, success = (f) => f, error = (f) => f) => {
   const token = localStorage.getItem("@@token");
