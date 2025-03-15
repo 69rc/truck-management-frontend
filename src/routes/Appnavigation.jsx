@@ -16,6 +16,7 @@ import DriverDashboard from "../pages/app/DriverDashboard";
 // import RoutePlanning from "./pages/app/RoutePlanning";
 // import DriverCommunication from "./pages/app/DriverCommunication";
 // import ShiftManagement from "./pages/app/ShiftManagement";
+import Blog from '../pages/app/Blog'
 import MyTruck from '../pages/app/TruckManagement'
 import Layout from "./layout"; 
 import Registration from "../pages/app/RegisterPage";
@@ -36,6 +37,7 @@ export default function AppNavigation() {
       element: <Layout />,
       children: [
          { path: "admin-dashboard", element: <AdminDashboard />},
+         { path: "blog", element: <Blog />},
         // { path: "truck-management", element: <TruckManagement /> },
         // { path: "driver-management", element: <DriverManagement /> },
         // { path: "route-management", element: <RouteManagement /> },

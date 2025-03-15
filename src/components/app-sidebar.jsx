@@ -26,11 +26,11 @@ import { useRole } from "../utils/Context/RoleContext ";
 const data = {
   navAdmin: [
     { title: "Dashboard", url: "admin-dashboard", icon: <Home className="w-5 h-5" /> },
-    { title: "Truck Management", url: "#", icon: <Truck className="w-5 h-5" /> },
-    { title: "Driver Management", url: "#", icon: <User className="w-5 h-5" /> },
-    { title: "Route Management", url: "#", icon: <Route className="w-5 h-5" /> },
-    { title: "Delivery Tracking", url: "#", icon: <Clipboard className="w-5 h-5" /> },
-    { title: "Reports", url: "#", icon: <Clipboard className="w-5 h-5" /> },
+    { title: "blog post", url: "blog", icon: <Truck className="w-5 h-5" /> },
+    // { title: "Driver Management", url: "#", icon: <User className="w-5 h-5" /> },
+    // { title: "Route Management", url: "#", icon: <Route className="w-5 h-5" /> },
+    // { title: "Delivery Tracking", url: "#", icon: <Clipboard className="w-5 h-5" /> },
+    // { title: "Reports", url: "#", icon: <Clipboard className="w-5 h-5" /> },
   ],
   navDriver: [
     { title: "Dashboard", url: "dashboard", icon: <Home className="w-5 h-5" /> },
